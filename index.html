@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>今日头条</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-default">
+		 <div class="container">
+	        <div class="navbar-header">
+	        	<a href="index.html" class="navbar-brand">Logo</a>
+	     	</div>
+	      	<div class="hidden-xs">
+	        	<ul class="nav navbar-nav">
+		          <li class="active"><a href="https://www.toutiao.com/">首页</a></li>
+		          <li><a href="#">国内</a></li>
+		          <li><a href="#">国际</a></li>
+		          <li><a href="#">军事</a></li>
+		          <li><a href="#">社会</a></li>
+		          <li><a href="#">要闻</a></li>
+	        	</ul>
+
+	        	<ul class="nav navbar-nav navbar-right">
+	        		<li><a href="login.html">登录</a></li>
+	        		<li><a href="signup.html">注册</a></li>
+	        	</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="side-bar list-group">
+					<ul class="item">
+						<li class="list-group-item active"><a href="#">综合</a></li>
+						<li  class="list-group-item"><a href="#">电影</a></li>
+						<li  class="list-group-item"><a href="#">电视剧</a></li>
+						<li  class="list-group-item"><a href="#">娱乐</a></li>
+						<li  class="list-group-item"><a href="#">政务</a></li>
+						<li  class="list-group-item"><a href="#">吐槽</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-7">
+                <!--轮播图-->
+                <div class="carousel slide" id="myCarousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/img_big01.jpg" alt="pic">
+                        </div>
+                        <div class="item"><img src="img/img_big02.jpg" alt="pic"></div>
+                        <div class="item"><img src="img/img_big03.jpg" alt="pic"></div>
+                    </div>
+                    <a href="#myCarousel" class="right carousel-control" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    </a>
+                    <a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+</a>
+                </div>
+				<div class="row">
+					<div class="news-list">
+						<div class="news-list-item clearfix">
+							<div class="col-md-4">
+								<img src="img/img_sm01.jpg" alt="">
+							</div>
+							<div class="col-md-8">
+								<a href="https://www.toutiao.com/a6589424473542230541/" class="title">救人的“最帅小伙”找到了！老人已做完颅内手术，亲属：非常感谢他</a>
+								<div class="info">
+									<span>都市快报</span>·
+									<span>456评论</span>·
+									<span>20分钟前</span>
+								</div>
+							</div>
+						</div>
+						<div class="news-list-item clearfix">
+							<div class="col-md-4">
+								<img src="img/img_sm02.jpg" alt="">
+							</div>
+							<div class="col-md-8">
+								<a href="#" class="title">昆明投资36亿占地千亩大项目变“废城”？记者走访：游客寥寥无几</a>
+								<div class="info">
+									<span>都市快报</span>·
+									<span>442评论</span>·
+									<span>20分钟前</span>
+								</div>
+							</div>
+						</div>
+						<div class="news-list-item clearfix">
+							<div class="col-md-4">
+								<img src="img/img_sm03.jpg" alt="">
+							</div>
+							<div class="col-md-8">
+								<a href="#" class="title">各大景区玻璃栈道蜂拥而上，真的好吗？</a>
+								<div class="info">
+									<span>都市快报</span>·
+									<span>456评论</span>·
+									<span>20分钟前</span>
+								</div>
+							</div>
+						</div>
+						<div class="news-list-item clearfix">
+							<div class="col-md-4">
+								<img src="img/img_sm04.jpg" alt="">
+							</div>
+							<div class="col-md-8">
+								<a href="#" class="title">从恐龙到巨齿鲨，为何越来越多史前生物被“复活”</a>
+								<div class="info">
+									<span>都市快报</span>·
+									<span>456评论</span>·
+									<span>20分钟前</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="loginfo">
+					<p>登录后可以保存您的浏览喜好、评论、收藏，并与APP同步更可以发布微头条</p>
+					<a href="#">
+						<button class="btn btn-danger">登录</button>
+					</a>
+				</div>
+				<div class="side-card">
+					<div class="hotnews">24小时热闻</div>
+					<div class="card-list clearfix">
+						<div class="col-md-4">
+							<img src="img/img_xm01.jpg" alt="">
+						</div>
+						<div class="col-md-8">
+							<a href="#" class="title">
+							“温比亚”强势北上 豫皖苏鲁多地暴雨破历史极值</a>
+						</div>
+					</div>
+					<div class="card-list clearfix">
+						<div class="col-md-4">
+							<img src="img/img_xm02.jpg" alt="">
+						</div>
+						<div class="col-md-8">
+							<a href="#" class="title">
+							腾讯严打游戏《绝地求生》外挂 南京网安赴20余省市成功抓获141人</a>
+						</div>
+					</div>
+					<div class="card-list clearfix">
+						<div class="col-md-4">
+							<img src="img/img_xm03.jpg" alt="">
+						</div>
+						<div class="col-md-8">
+							<a href="#" class="title">
+							狂风暴雨突袭徐州已致7人遇难 居民讲述惊魂两分钟</a>
+						</div>
+					</div>
+					<div class="card-list clearfix">
+						<div class="col-md-4">
+							<img src="img/img_xm01.jpg" alt="">
+						</div>
+						<div class="col-md-8">
+							<a href="#" class="title">
+							“温比亚”强势北上 豫皖苏鲁多地暴雨破历史极值</a>
+						</div>
+					</div>
+					<div class="card-list clearfix">
+						<div class="col-md-4">
+							<img src="img/img_xm02.jpg" alt="">
+						</div>
+						<div class="col-md-8">
+							<a href="#" class="title">
+							腾讯严打游戏《绝地求生》外挂 南京网安赴20余省市成功抓获141人</a>
+						</div>
+					</div>
+					<div class="card-list clearfix">
+						<div class="col-md-4">
+							<img src="img/img_xm03.jpg" alt="">
+						</div>
+						<div class="col-md-8">
+							<a href="#" class="title">
+							狂风暴雨突袭徐州已致7人遇难 居民讲述惊魂两分钟</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		© 2017 今日头条 中国互联网举报中心京ICP证1401号京ICP备125439号-3京公网安备
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+</html>
